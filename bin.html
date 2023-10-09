@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Главная страница</title>
+</head>
+
+<body>
+    <div class="header__bin center">
+        <header class="header">
+            <a href="./index.html"><img src="img/logo.svg" alt="logo"></a>
+            <input class="top__search" placeholder="Поиск" type="text">
+            <nav class="nav">
+                <a class="nav__link" href="./catalog.html">Каталог</a>
+                <a class="nav__link" href="./bin.html">Корзина</a>
+            </nav>
+        </header>
+
+        <section class="top__item">
+            <h1 class="top__title bin__top-title">Корзина</h1>
+        </section>
+    </div>
+
+    <main class="bin center">
+        <div class="bin__left">
+            <div class="bin__left-top">
+                <p class="bin__left-text">Товар</p>
+                <p class="bin__left-text">К-во</p>
+            </div>
+
+            <div class="left__content">
+                <div class="left__content-item">
+                    <div class="left__content-image">
+                        <img src="img/bin-item1.jpg" alt="bin-item1">
+                    </div>
+                    <div class="left__content-text">
+                        <h3 class="left__content-title">Стол MENU</h3>
+                        <p class="left__content-discription">Для того чтобы трапезничать было приятно, необходим
+                            правильный обеденный стол.</p>
+                        <p class="left__content-price">34 000 руб.</p>
+                        <div class="text__link-box">
+                            <a class="text__link" href="#">Избранные</a>
+                            <a class="text__link" href="#">Удалить</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input class="left__content-count" type="number" value="1">
+                </div>
+            </div>
+            <div class="left__content">
+                <div class="left__content-item">
+                    <div class="left__content-image">
+                        <img src="img/bin-image2.jpg" alt="bin-item2">
+                    </div>
+                    <div class="left__content-text">
+                        <h3 class="left__content-title">Диван NASTAN</h3>
+                        <p class="left__content-discription">Модель отличается простотой линий и форм, отсутствием
+                            броского декора. </p>
+                        <p class="left__content-price">80 000 руб.</p>
+                        <div class="text__link-box">
+                            <a class="text__link" href="#">Избранные</a>
+                            <a class="text__link" href="#">Удалить</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input class="left__content-count" type="number" value="1">
+                </div>
+            </div>
+
+            <div class="bin__box-button">
+                <button class="bin__button">Очистить корзину</button>
+                <button class="bin__button">Продолжить покупки</button>
+            </div>
+        </div>
+        <div class="bin__right">
+            <form action="#" class="bin__right-form">
+                <h2 class="form__title">Оформление заказа</h2>
+                <div class="form__input">
+                    <p class="form__input-item">Имя Фамилия</p>
+                    <p class="form__input-item">+ 7 904 000 80 80</p>
+                    <p class="form__input-item">Адрес доставки</p>
+                </div>
+                <div class="total__box">
+                    <p class="form__total">Итого: <span class="total__money">128 000 руб</span>.</p>
+                    <button class="form__button">Оформить заказ</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <section class="center">
+        <h2 class="product__title">Специальные предложения</h2>
+        <div class="product__box">
+            <div class="product">
+                <img class="product__image" src="img/Tatran.jpg" alt="voda">
+                <h3 class="product__text">Кровать TATRAN</h3>
+                <p class="product__description">Основание из полированной нержавеющей стали, придает оригинальный
+                    парящий эффект.</p>
+                <div class="price">
+                    <p class="product__price">120 000 руб.</p>
+                    <p class="product__sale">140 000 руб.</p>
+                </div>
+            </div>
+
+            <div class="product">
+                <img class="product__image" src="img/Vilora.jpg" alt="Ronald">
+                <h3 class="product__text">Кресло VILORA</h3>
+                <p class="product__description">Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и
+                    приятная на ощупь ткань.
+                </p>
+                <div class="price">
+                    <p class="product__price">21 000 руб.</p>
+                    <p class="product__sale">28 000 руб.</p>
+                </div>
+            </div>
+
+            <div class="product">
+                <img class="product__image" src="img/Manu.jpg" alt="Vent">
+                <h3 class="product__text">Стол MENU</h3>
+                <p class="product__description">Европейский дуб - отличается особой прочностью и стабильностью.</p>
+                <div class="price">
+                    <p class="product__price">34 000 руб.</p>
+                    <p class="product__sale">45 000 руб.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="box__link center">
+        <a class="link__box" href="catalog.html">Перейти в каталог</a>
+    </section>
+
+    <footer class="footer center">
+        <div class="footer__logo">
+
+            <!-- <img src="img/logo.svg" alt="logo"> -->
+            <h3 class="logo__text">Интерьер.</h3>
+
+        </div>
+
+
+        <div class="footer__menu-flex">
+            <h4 class="footer__menu">Меню</h4>
+            <a class="footer__link" href="./index.html">Главная</a>
+            <a class="footer__link" href="./catalog.html">Каталог</a>
+            <a class="footer__link" href="./bin.html">Корзина</a>
+        </div>
+
+        <div class="footer__contact-flex">
+            <h4 class="footer__contact">Контакты</h4>
+            <a class="footer__link" href="tel:+79088008080">+7 908 800 80 80</a>
+            <a class="footer__link" href="mailto:help@interier.com">help@interier.com</a>
+            <div class="footer__link-flex">
+                <a href="#"><img src="img/inst.svg" alt="inst"></a>
+                <a href="#"><img src="img/twitter.svg" alt="twitter"></a>
+                <a href="#"><img src="img/facebook.svg" alt="facebook"></a>
+            </div>
+
+
+        </div>
+        <div>
+            <form class="footer__form form__flex" action="#">
+                <p class="footer__form-text">Получайте наши новости и обновления</p>
+                <input class="footer__form-input" type="email" placeholder="Email Address">
+                <button class="footer__form-button" type="submit">Подписаться</button>
+            </form>
+        </div>
+    </footer>
+
+</body>
+
+</html>
